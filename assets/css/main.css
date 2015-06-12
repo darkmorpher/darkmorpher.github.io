@@ -2005,9 +2005,6 @@
 			margin: 0 0 1em 0;
 			text-align: center;
 		}
-			.icon.fa-linux:before {
-			color: #1a237e;
-		}
 
 			#header .icons a {
 				color: #41484c;
@@ -2031,10 +2028,10 @@
 		#logo h1 {
 			position: relative;
 			color: #fff;
-			font-family: 'RobotoDraft';
-			font-weight: 500;
+			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			padding-right: 10px;
 		}
 
 		#logo p {
