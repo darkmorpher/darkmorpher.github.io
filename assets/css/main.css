@@ -2005,7 +2005,7 @@
 			margin: 0 0 1em 0;
 			text-align: center;
 		}
-			SPAN.icon.fa-linux {
+			.icon.fa-linux:before {
 			color: #1a237e;
 		}
 
@@ -2031,7 +2031,8 @@
 		#logo h1 {
 			position: relative;
 			color: #fff;
-			font-weight: 600;
+			font-family: 'RobotoDraft';
+			font-weight: 500;
 			font-size: 1em;
 			line-height: 1em;
 		}
@@ -2039,6 +2040,7 @@
 		#logo p {
 			position: relative;
 			display: block;
+			font-family: 'RobotoDraft';
 			font-size: 0.6em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
@@ -2086,7 +2088,7 @@
 		}
 		
 		#nav ul li a:hover {
-			background: rgba(251, 251, 251, 0.03);
+			background: rgba(251, 251, 251, 0.01);
 		}
 
 			#nav ul li a.active span:before {
