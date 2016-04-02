@@ -1570,7 +1570,7 @@
 			animation: none !important;
 		}
 
-	#buorg {background-color: #374046 !important;border:none !important;opacity:0.5 !important;}
+	#buorg {background-color: #374046 !important;border:none !important;opacity:0.5 !important;z-index: -1 !important;}
 	.buorg {color: #fff !important;}
 	#buorg a {color: #cddc39 !important;}
 	#buorg div {padding:0px 36px 0px 40px;}
