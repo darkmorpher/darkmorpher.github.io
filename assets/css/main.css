@@ -1573,6 +1573,7 @@
 	.buorg {background-color: #374046 !important;text-align: right !important;border: none !important;opacity: 0.5 !important; z-index: -1 !important;}
 	.buorg {color: #fff !important;}
 	.buorg a {color: #cddc39 !important;}
+	.buorg b {color: #ff851b !important;}
 	.buorg div {padding: 0px 56px 0px 0px !important;}
 	#buorgclose {padding-right: 40px !important;}
 
