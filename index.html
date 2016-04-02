@@ -137,7 +137,7 @@ var $buoop = {vs:{i:10,f:35,o:25,s:7},c:2,reminder:0,reminderClosed:1,newwindow:
 function $buo_f(){ 
  var e = document.createElement("script"); 
  e.src = "//browser-update.org/update.min.js"; 
- document.main.appendChild(e);
+ document.body.getElementById("main").appendChild(e);
 };
 try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 catch(e){window.attachEvent("onload", $buo_f)}
