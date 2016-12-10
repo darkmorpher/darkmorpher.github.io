@@ -1578,7 +1578,7 @@
 	.buorg b {color: #ff851b !important;}
 	.buorg div {padding: 0px 56px 0px 0px !important;}
 	#buorgclose {padding-right: 40px !important;}
-	.buorg img {padding: 0px 56px 0px 0px !important;}
+	.buorg img {background-position: 25% 50% !important;}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
