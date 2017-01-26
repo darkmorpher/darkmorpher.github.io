@@ -1572,13 +1572,16 @@
 			animation: none !important;
 		}
 
-	.buorg {background-color: #374046 !important;text-align: right !important;border: none !important;opacity: 0.5 !important; z-index: -1 !important;}
-	.buorg {color: #fff !important;}
+	.buorg {background-color: #242a37 !important; border: none !important; opacity: 0.85; z-index: -1 !important;}
+	.buorg {color: #fff !important; text-align: right !important;}
 	.buorg a {color: #cddc39 !important;}
-	.buorg b {color: #ff851b !important;}
-	.buorg div {padding: 0px 56px 0px 0px !important;}
-	#buorgclose {padding-right: 40px !important; top: -6px !important;}
-	.buorg {background-position: 27% 50% !important;}
+	.buorg b {color: orange !important;}
+	#buorgul {background-color: #2b7489 !important; color: #fff !important;}
+	#buorgig {background-color: #111 !important; color: #fff !important;}
+	.buorg {background-position: 27% center !important;}
+		@media only screen and (max-width: 700px){
+	.buorg {background-position: 9px 8px !important;}
+		}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
